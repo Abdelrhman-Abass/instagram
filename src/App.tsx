@@ -1,4 +1,5 @@
 import { Routes , Route } from 'react-router-dom';
+import { Toaster } from "@/components/ui/toaster"
 
 
 import SigninForm from './_auth/forms/SigninForm';
@@ -29,6 +30,7 @@ const App = () => {
 
         
       </Routes>
+      <Toaster/>
     </main>
   )
 }
