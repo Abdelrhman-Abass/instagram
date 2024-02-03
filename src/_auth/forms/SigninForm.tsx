@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 
 import { SignInValidation } from "@/lib/validation"
-import  Loader  from '@/components/shared/Loader'
+import { Loader } from '@/components/shared'
 
 import {  useSignInAccount } from '@/lib/react-query/queriesAndMutations'
 import { useUserContext } from '@/context/AuthContext'
