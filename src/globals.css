@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-dark-1 text-white  min-h-screen font-inter;
+    @apply bg-dark-1 text-white min-h-screen font-inter;
   }
 }
 
@@ -218,11 +218,11 @@
   }
 
   /* Left sidebar */
-  .left_sidebar {
+  .leftsidebar {
     @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-dark-2;
   }
 
-  .left_sidebar-link {
+  .leftsidebar-link {
     @apply rounded-lg base-medium hover:bg-primary-500 transition;
   }
 
